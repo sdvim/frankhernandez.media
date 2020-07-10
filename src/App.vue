@@ -16,7 +16,7 @@
       </div>
     </div>
     <footer>
-      <h2>&copy;2019 {{ name }}</h2>
+      <h2>&copy;2020 {{ name }}</h2>
     </footer>
     <transition name="fade">
       <div
