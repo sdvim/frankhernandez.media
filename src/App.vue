@@ -64,6 +64,70 @@ export default {
       title: 'Motion graphics & creative ads',
       projects: [
         {
+          id: 14,
+          title: 'MORTAL KOMBAT 11',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a', 'b', 'c'],
+          jumbo: true,
+        },
+        {
+          id: 15,
+          title: 'A BEAUTIFUL DAY IN THE NEIGHBORHOOD',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a', 'b', 'c'],
+        },
+        {
+          id: 16,
+          title: 'PLAYSTATION',
+          company: 'SONY',
+          role: 'Edit + Motion Graphics',
+          videos: ['a'],
+        },
+        {
+          id: 17,
+          title: 'DOWNTON ABBEY',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a', 'b', 'c'],
+        },
+        {
+          id: 18,
+          title: 'SEVEN DEADLY SINS: GRAND CROSS',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a', 'b', 'c'],
+        },
+        {
+          id: 19,
+          title: 'FOR LIFE',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a'],
+        },
+        {
+          id: 20,
+          title: 'KING OF FIGHTERS: ALL STARS',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a', 'b', 'c'],
+        },
+        {
+          id: 21,
+          title: 'MAYANS MC',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a', 'b', 'c'],
+        },
+        {
+          id: 22,
+          title: 'KOONGYA DRAW PARTY',
+          company: '',
+          role: 'Edit + Motion Graphics',
+          videos: ['a', 'b'],
+        },
+        {
           id: 1,
           title: 'ASSASSINATION NATION',
           company: 'NEON',
@@ -105,7 +169,6 @@ export default {
           company: 'SQUARE ENIX',
           role: 'Edit + Motion Graphics',
           videos: ['a', 'b', 'c'],
-          jumbo: true,
         },
         {
           id: 10,
@@ -120,6 +183,7 @@ export default {
           company: '20TH CENTURY FOX',
           role: 'Edit + Motion Graphics',
           videos: ['a', 'b'],
+          jumbo: true,
         },
         {
           id: 3,
@@ -127,7 +191,6 @@ export default {
           company: 'UBISOFT',
           role: 'Edit + Motion Graphics',
           videos: ['a'],
-          jumbo: true,
         },
       ]
     }
