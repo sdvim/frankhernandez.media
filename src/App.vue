@@ -50,14 +50,10 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import projects from './projects';
 
 export default {
   name: 'app',
-  // components: {
-  //   HelloWorld
-  // },
   data() {
     return {
       activeProject: null,
@@ -103,11 +99,6 @@ export default {
       }
     },
   },
-  // mounted() {
-  //   if (process.env.NODE_ENV === 'development') {
-  //     this.setActiveProject(this.projects[0]);
-  //   }
-  // },
 }
 </script>
 
