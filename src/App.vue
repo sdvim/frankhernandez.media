@@ -79,13 +79,6 @@ export default {
           videos: ['a', 'b', 'c'],
         },
         {
-          id: 5,
-          title: 'THE MARVELOUS MRS. MAISEL',
-          company: 'AMAZON',
-          role: 'Motion Graphics',
-          videos: ['a'],
-        },
-        {
           id: 6,
           title: 'LOST IN SPACE',
           company: '20TH CENTURY FOX',
@@ -115,13 +108,6 @@ export default {
           jumbo: true,
         },
         {
-          id: 9,
-          title: 'THE CATCHER WAS A SPY',
-          company: 'IFC FILMS',
-          role: 'Edit + Motion Graphics',
-          videos: ['a'],
-        },
-        {
           id: 10,
           title: 'OCTOPATH TRAVELER',
           company: 'SQUARE ENIX',
@@ -142,13 +128,6 @@ export default {
           role: 'Edit + Motion Graphics',
           videos: ['a'],
           jumbo: true,
-        },
-        {
-          id: 12,
-          title: 'JOHNNY ENGLISH STRIKES AGAIN',
-          company: 'UNIVERSAL STUDIOS',
-          role: 'Edit + Motion Graphics',
-          videos: ['a'],
         },
       ]
     }
