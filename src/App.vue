@@ -70,6 +70,11 @@ export default {
       return require(`./assets/videos-hd/${this.activeProject.id}a.png`);
     },
   },
+  mounted() {
+    this.projects.forEach((project, index) => {
+      project.navIndex = index;
+    });
+  },
   methods: {
     imagePath(id) {
       return require(`./assets/images/${id}.jpg`);
@@ -78,9 +83,10 @@ export default {
       return require(`./assets/videos-hd/${id}${filename}.webm`);
     },
     nextActiveProject(delta) {
-      let nextProjectId = (this.activeProject.id + delta) % 12;
-      if (nextProjectId === 0) nextProjectId = 12;
-      const nextProject = this.projects.find(project => project.id === nextProjectId);
+      const projectTotal = this.projects.length;
+      let nextProjectId = (this.activeProject.navIndex + delta) % projectTotal;
+      if (nextProjectId === 0) nextProjectId = projectTotal;
+      const nextProject = this.projects.find(project => project.navIndex === nextProjectId);
       this.setActiveProject(nextProject);
       this.$refs.player.src = this.currentVideo;
       this.$refs.player.setAttribute('poster', this.currentVideoPoster);
