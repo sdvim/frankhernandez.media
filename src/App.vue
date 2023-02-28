@@ -30,7 +30,7 @@
         <div class="active-project">
           <div class="video-player">
             <video
-              class="video" autoplay playsinline ref="player"
+              class="video" playsinline ref="player" controls
               :poster="currentVideoPoster"
               @click.prevent.stop="togglePlayPause">
               <source :src="currentVideo" type="video/webm">
